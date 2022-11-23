@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Arvo', 'Crete Round', 'Ultra', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: rgb(232, 218, 218);
+}
+
+code {
+  font-family: 'Courier New', monospace;
+}
+
+table {
+  margin-top: 25px;
+}
+
+tr {
+  margin: 5px;
+  padding: 5px;
+}
+
+tr.heading {
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+td, th {
+  min-width: 200px;
+  text-align: left;
+}
+
+.banner {
+  background-color: darkslategrey;
+  text-align: center;
+  color:white;
+  margin: 50px;
+  padding: 20px;
+}
+
+.body {
+  margin-left: 50px;
+  color:rgb(15, 15, 93);
+}
+
+.firstline {
+  padding-top: 5px;
+  border-top: 3px, solid, black;
+}
+
+.button {
+  background-color:darkcyan; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Crete Round' ;
+}
